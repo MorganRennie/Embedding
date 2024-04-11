@@ -49,3 +49,13 @@ tableau-viz {
   width: 100%;
   height: 400px;
 }
+
+/* Button animations */
+input[type="button"] {
+  transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+  background-color: #007bff;
+  color: #fff;
+}
